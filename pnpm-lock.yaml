@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@angular/animations':
     specifier: ^15.2.0
@@ -38,13 +42,13 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: ^15.2.7
-    version: 15.2.7(@angular/compiler-cli@15.2.0)(karma@6.4.0)(typescript@4.9.4)
+    version: 15.2.7(@angular/compiler-cli@15.2.0)(karma@6.4.0)(typescript@5.1.3)
   '@angular/cli':
     specifier: ~15.2.7
     version: 15.2.7
   '@angular/compiler-cli':
     specifier: ^15.2.0
-    version: 15.2.0(@angular/compiler@15.2.0)(typescript@4.9.4)
+    version: 15.2.0(@angular/compiler@15.2.0)(typescript@5.1.3)
   '@types/jasmine':
     specifier: ~4.3.0
     version: 4.3.0
@@ -67,8 +71,8 @@ devDependencies:
     specifier: ~2.0.0
     version: 2.0.0(jasmine-core@4.5.0)(karma-jasmine@5.1.0)(karma@6.4.0)
   typescript:
-    specifier: ~4.9.4
-    version: 4.9.4
+    specifier: ~5.1.0
+    version: 5.1.3
 
 packages:
 
@@ -98,7 +102,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@15.2.7(@angular/compiler-cli@15.2.0)(karma@6.4.0)(typescript@4.9.4):
+  /@angular-devkit/build-angular@15.2.7(@angular/compiler-cli@15.2.0)(karma@6.4.0)(typescript@5.1.3):
     resolution: {integrity: sha512-zZ+tlt5aNGY9APUdjQHeVFJpVLeixlZRNHmfdXD+rN4WR2q9E0pTvLUThrkOmO8YrVyGbdvcw1O7XNdL+3b02w==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -131,7 +135,7 @@ packages:
       '@angular-devkit/architect': 0.1502.7(chokidar@3.5.3)
       '@angular-devkit/build-webpack': 0.1502.7(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1)
       '@angular-devkit/core': 15.2.7(chokidar@3.5.3)
-      '@angular/compiler-cli': 15.2.0(@angular/compiler@15.2.0)(typescript@4.9.4)
+      '@angular/compiler-cli': 15.2.0(@angular/compiler@15.2.0)(typescript@5.1.3)
       '@babel/core': 7.20.12
       '@babel/generator': 7.20.14
       '@babel/helper-annotate-as-pure': 7.18.6
@@ -143,7 +147,7 @@ packages:
       '@babel/runtime': 7.20.13
       '@babel/template': 7.20.7
       '@discoveryjs/json-ext': 0.5.7
-      '@ngtools/webpack': 15.2.7(@angular/compiler-cli@15.2.0)(typescript@4.9.4)(webpack@5.76.1)
+      '@ngtools/webpack': 15.2.7(@angular/compiler-cli@15.2.0)(typescript@5.1.3)(webpack@5.76.1)
       ansi-colors: 4.1.3
       autoprefixer: 10.4.13(postcss@8.4.21)
       babel-loader: 9.1.2(@babel/core@7.20.12)(webpack@5.76.1)
@@ -184,7 +188,7 @@ packages:
       text-table: 0.2.0
       tree-kill: 1.2.2
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 5.1.3
       webpack: 5.76.1(esbuild@0.17.8)
       webpack-dev-middleware: 6.0.1(webpack@5.76.1)
       webpack-dev-server: 4.11.1(webpack@5.76.1)
@@ -303,7 +307,7 @@ packages:
       tslib: 2.3.0
     dev: false
 
-  /@angular/compiler-cli@15.2.0(@angular/compiler@15.2.0)(typescript@4.9.4):
+  /@angular/compiler-cli@15.2.0(@angular/compiler@15.2.0)(typescript@5.1.3):
     resolution: {integrity: sha512-ETnRBdY/LGcmDRQ9GQc9KyCd1kuRnj+Y9luq2dCTMysP+NgylmYoGDsJOsDKm6SzPo+B4PSAyHX2J4CVQFHpPg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
@@ -321,7 +325,7 @@ packages:
       reflect-metadata: 0.1.13
       semver: 7.5.0
       tslib: 2.3.0
-      typescript: 4.9.4
+      typescript: 5.1.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -1952,7 +1956,7 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@ngtools/webpack@15.2.7(@angular/compiler-cli@15.2.0)(typescript@4.9.4)(webpack@5.76.1):
+  /@ngtools/webpack@15.2.7(@angular/compiler-cli@15.2.0)(typescript@5.1.3)(webpack@5.76.1):
     resolution: {integrity: sha512-iUCSR03PzGSpwwZ5soioTIWsTPBayzkZfhKMkfz1RqtkbcxC4I07NRoQ1djofhsYyW2I1n7XS8w3K7NILtN3gQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -1960,8 +1964,8 @@ packages:
       typescript: '>=4.8.2 <5.0'
       webpack: ^5.54.0
     dependencies:
-      '@angular/compiler-cli': 15.2.0(@angular/compiler@15.2.0)(typescript@4.9.4)
-      typescript: 4.9.4
+      '@angular/compiler-cli': 15.2.0(@angular/compiler@15.2.0)(typescript@5.1.3)
+      typescript: 5.1.3
       webpack: 5.76.1(esbuild@0.17.8)
     dev: true
 
@@ -6446,9 +6450,9 @@ packages:
     resolution: {integrity: sha512-KNNZtayBCtmnNmbo5mG47p1XsCyrx6iVqomjcZnec/1Y5GGARaxPs6r49RnSPeUP3YjNYiU9sQHAtY4BBvnZwg==}
     dev: true
 
-  /typescript@4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.1.3:
+    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
